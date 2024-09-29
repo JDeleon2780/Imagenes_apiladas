@@ -1,9 +1,13 @@
 body {
     font-family: sans-serif;
-    background-color: #191919;
-    background-image: url(img/Background.jpeg);
+    background-color: #000002;
+    background-image: url(img/giphy.gif);
     background-repeat: no-repeat;
     background-position: center;
+    background-size: 700px 700px;
+    background-attachment: fixed;
+    background-position-y: center;
+   
 }
 .imagenes-container {
     display: flex;

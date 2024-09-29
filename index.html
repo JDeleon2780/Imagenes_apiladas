@@ -9,36 +9,43 @@
   </head>
   <body>
     <div class="imagenes-container">
-      <div class="imagen">
-        <img src="img/375px-Link_SSBU.png" alt="link" />
+      <div class="imagen" data-personaje="link">
+        <img src="img/375px-Link_SSBU.png" alt="Imagen de Link de Super Smash Bros Ultimate" />
         <span class="nombre">
           <span class="text">Link</span>
         </span>
       </div>
-      <div class="imagen">
-        <img src="img/375px-Snake_SSBU.png" alt="snake" />
+      <div class="imagen" data-personaje="snake">
+        <img src="img/375px-Snake_SSBU.png" alt="Imagen de Solid Snake de Super Smash Bros Ultimate" />
         <span class="nombre">
-          <span class="text">Solid snake</span>
+          <span class="text">Solid Snake</span>
         </span>
       </div>
-      <div class="imagen">
-        <img src="img/Mario_SSBU.png" alt="Mario" />
+      <div class="imagen" data-personaje="mario">
+        <img src="img/Mario_SSBU.png" alt="Imagen de Mario de Super Smash Bros Ultimate" />
         <span class="nombre">
           <span class="text">Mario</span>
         </span>
       </div>
-      <div class="imagen">
-        <img src="img/main.png" alt="Sonic" />
+      <div class="imagen" data-personaje="sonic">
+        <img src="img/main.png" alt="Imagen de Sonic de Super Smash Bros Ultimate" />
         <span class="nombre">
-          <span class="text">Sonic the hedgehog</span>
+          <span class="text">Sonic the Hedgehog</span>
         </span>
       </div>
-      <div class="imagen">
-        <img src="img/main-_1_.png" alt="Picachu" />
+      <div class="imagen" data-personaje="pikachu">
+        <img src="img/main-_1_.png" alt="Imagen de Pikachu de Super Smash Bros Ultimate" />
         <span class="nombre">
-          <span class="text">Picachu</span>
+          <span class="text">Pikachu</span>
         </span>
       </div>
     </div>
+    <audio id="link-sound" src="sounds/vc_narration_characall_link.wav"></audio>
+    <audio id="snake-sound" src="sounds/vc_narration_characall_snake.wav"></audio>
+    <audio id="mario-sound" src="sounds/vc_narration_characall_mario.wav"></audio>
+    <audio id="sonic-sound" src="sounds/vc_narration_characall_sonic.wav"></audio>
+    <audio id="pikachu-sound" src="sounds/vc_narration_characall_pikachu.wav"></audio>
+
+    <script src="sonido.js"></script>
   </body>
 </html>
